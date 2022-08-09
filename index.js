@@ -4,3 +4,5 @@ const returnLastTwoDrivers = (driverAry) => {
     let last = driverAry.length - 1;
     return [driverAry[last-1], driverAry[last]];
 }
+
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
